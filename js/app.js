@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         figure.classList.add("figure");
 
         //losujemy randomowe położenie między 50px a 400px;
-        var randomBottom = (Math.random()*(400-50+1)+50);
+        var randomBottom = (Math.random()*(380-50+1)+50);
 
         //losujemy randomowe skale;
         var randomScaleOne =(Math.random()*(1-0.7+1)+0.7);

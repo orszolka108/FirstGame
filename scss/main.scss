@@ -9,9 +9,12 @@ html, body {
 
 
   background: rgba(255,255,255,1);
+  background-image: url("../qHhOAmg.jpg") ;
   width: 100%;
   height: 100vh;
+  background-size: cover;
   position: relative;
+  text-align: center;
 }
 
 
@@ -54,4 +57,21 @@ html, body {
   100% {
     background-position: -720px ;
   }
+}
+.score {
+  width: 120px;
+  height: 30px;
+  border: 5px solid white;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.score-result {
+  color: white;
+  font-weight: 600;
 }
